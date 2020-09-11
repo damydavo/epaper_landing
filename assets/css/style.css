@@ -91,6 +91,9 @@ i {
     width: 45%;
     padding: 4px;
   }
+  .container {
+    padding: 24px;
+  }
   .badge {
     width: auto !important;
     object-fit: cover !important;
