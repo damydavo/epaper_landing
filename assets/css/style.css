@@ -1,0 +1,123 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+h1 {
+  font-family: "Bitter", serif;
+  font-size: 55px;
+}
+#set {
+  background-color: #f15b5f;
+  border-radius: 5px;
+}
+.hero {
+  margin: 0 auto;
+}
+.align {
+  display: grid;
+  text-align: center;
+  margin-top: 6em;
+}
+.mon {
+  font-size: 16px;
+}
+
+p1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: black;
+}
+a {
+  color: #222;
+}
+.badge {
+  width: 600px;
+  height: 400px;
+  background-color: #ffffff;
+  margin-bottom: 6em;
+}
+
+.badge-content {
+  padding: 40px;
+}
+.badge-content h3 {
+  font-family: "Bitter", serif;
+}
+.rounded-banner {
+  background-color: #f15b5f;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  border-radius: 32px;
+}
+i {
+  color: #f15b5f;
+  font-size: 18px;
+}
+.check {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(90, 90, 90);
+  font-size: 15px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #f15b5f;
+}
+@media screen and (max-width: 800px) {
+  #set {
+    width: 45%;
+    padding: 4px;
+  }
+  .badge {
+    width: auto !important;
+    object-fit: cover !important;
+    border: none;
+    overflow: hidden;
+  }
+  .align {
+    margin-top: 3em;
+    justify-content: center;
+    padding: 20px;
+  }
+  #pills-tab {
+    padding: 24px !important;
+    justify-content: center;
+  }
+  .content {
+    display: block;
+    width: 100%;
+  }
+  h1 {
+    font-family: "Bitter", serif;
+    font-size: 25px;
+  }
+
+  .footer {
+    display: block;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
