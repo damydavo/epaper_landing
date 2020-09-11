@@ -17,8 +17,11 @@ h1 {
   font-family: "Bitter", serif;
   font-size: 55px;
 }
+.navbar-nav .nav-link {
+  font-size: 12px;
+}
 #set {
-  background-color: #f15b5f;
+  background-color: #ec1b23;
   border-radius: 5px;
 }
 .hero {
@@ -56,13 +59,13 @@ a {
   font-family: "Bitter", serif;
 }
 .rounded-banner {
-  background-color: #f15b5f;
+  background-color: #ec1b23;
   padding-top: 12px;
   padding-bottom: 8px;
   border-radius: 32px;
 }
 i {
-  color: #f15b5f;
+  color: #ec1b23;
   font-size: 18px;
 }
 .check {
@@ -73,7 +76,6 @@ i {
   font-size: 15px;
 }
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -81,19 +83,19 @@ i {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
+  font-size: 12px;
+  align-content: center;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  background-color: #f15b5f;
+  background-color: #ec1b23;
 }
 @media screen and (max-width: 800px) {
   #set {
     width: 45%;
     padding: 4px;
   }
-  .container {
-    padding: 24px;
-  }
+
   .badge {
     width: auto !important;
     object-fit: cover !important;
