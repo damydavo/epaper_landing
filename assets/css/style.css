@@ -119,6 +119,9 @@ i {
     font-family: "Bitter", serif;
     font-size: 25px;
   }
+  p1 {
+    padding: 2px;
+  }
 
   .footer {
     display: block;
