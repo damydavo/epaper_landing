@@ -51,6 +51,10 @@ a {
   background-color: #ffffff;
   margin-bottom: 6em;
 }
+.badge a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 .badge-content {
   padding: 40px;
