@@ -126,6 +126,14 @@ i {
   p1 {
     padding: 2px;
   }
+  .rounded-banner {
+    background-color: #ec1b23;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    border-radius: 32px;
+  }
 
   .footer {
     display: block;
