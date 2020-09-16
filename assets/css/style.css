@@ -61,6 +61,8 @@ a {
 }
 .badge-content h3 {
   font-family: "Bitter", serif;
+  padding: 0;
+  margin: 0;
 }
 .rounded-banner {
   background-color: #ec1b23;
@@ -104,6 +106,7 @@ i {
   line-height: 18px;
   color: rgb(90, 90, 90);
   font-size: 15px;
+  justify-content: center;
 }
 .template {
   display: flex;
@@ -126,7 +129,6 @@ i {
   padding-right: 96px;
   margin-top: 54px;
 }
-
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background-color: #ec1b23;
