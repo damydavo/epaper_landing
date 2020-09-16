@@ -18,7 +18,7 @@ h1 {
   font-size: 55px;
 }
 .navbar-nav .nav-link {
-  font-size: 12px;
+  font-size: 16px;
 }
 #set {
   background-color: #ec1b23;
@@ -43,7 +43,7 @@ p1 {
   color: black;
 }
 a {
-  color: #222;
+  color: black;
 }
 .badge {
   width: 600px;
@@ -68,9 +68,34 @@ a {
   padding-bottom: 8px;
   border-radius: 32px;
 }
+.on-mobile {
+  display: flex;
+}
+.mobile-bage {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 32px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.on-mobile a {
+  text-decoration: none;
+}
+.mobile-bage :hover {
+  opacity: 0.7;
+}
 i {
   color: #ec1b23;
   font-size: 12px;
+}
+
+#android {
+  font-size: 28px;
+  margin-right: 8px;
+}
+#icon-size {
+  font-size: 45px;
 }
 .check {
   font-family: "Roboto", sans-serif;
@@ -79,17 +104,28 @@ i {
   color: rgb(90, 90, 90);
   font-size: 15px;
 }
+.template {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3em 30em;
+  gap: 100px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 .footer {
   left: 0;
   bottom: 0;
   width: 100%;
   color: black;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   font-size: 12px;
-  align-content: center;
+  padding-left: 96px;
+  padding-right: 96px;
+  margin-top: 54px;
 }
+
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background-color: #ec1b23;
@@ -135,6 +171,14 @@ i {
     padding-top: 12px;
     padding-bottom: 8px;
     border-radius: 32px;
+  }
+  .template {
+    display: block;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3em 30em;
+  }
+  .address {
+    margin-top: 28px;
   }
 
   .footer {
