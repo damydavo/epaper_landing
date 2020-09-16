@@ -116,10 +116,10 @@ i {
 .footer {
   left: 0;
   bottom: 0;
-  width: 100% !important;
+  width: 100 !important;
   color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   font-size: 12px;
   padding-left: 96px;
   padding-right: 96px;
@@ -130,7 +130,7 @@ i {
 .nav-pills .show > .nav-link {
   background-color: #ec1b23;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   #set {
     width: 45%;
     padding: 4px;
@@ -186,5 +186,7 @@ i {
   .footer {
     grid-template-columns: 1fr;
     text-align: center;
+    width: 100%;
+    display: inline-block;
   }
 }
