@@ -135,13 +135,6 @@ i {
     width: 45%;
     padding: 4px;
   }
-
-  .badge {
-    width: 100% !important;
-    object-fit: cover !important;
-    border: none;
-    overflow: hidden;
-  }
   .align {
     margin-top: 3em;
     justify-content: center;
@@ -150,6 +143,10 @@ i {
   #pills-tab {
     padding: 24px !important;
     justify-content: center;
+  }
+  .badge {
+    width: 100%;
+    display: block;
   }
   .content {
     display: block;
