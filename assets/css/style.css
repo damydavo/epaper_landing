@@ -70,6 +70,7 @@ a {
 }
 .on-mobile {
   display: flex;
+  gap: 12px;
 }
 .mobile-bage {
   background-color: #f1f1f1;
